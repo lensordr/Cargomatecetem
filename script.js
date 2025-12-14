@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
-        emailjs.sendForm('service_judqsji', 'template_qwkjebd', this)
+        emailjs.sendForm('service_l13k0ox', 'template_qwkjebd', this)
             .then(function() {
                 alert('Message sent successfully!');
                 contactForm.reset();
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function sendEmail() {
     const form = document.querySelector('.contact-form form');
     
-    emailjs.sendForm('service_judqsji', 'template_qwkjebd', form)
+    emailjs.sendForm('service_l13k0ox', 'template_qwkjebd', form)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Message sent successfully!');
