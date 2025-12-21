@@ -4,6 +4,12 @@ function toggleMenu() {
     navMenu.classList.toggle('active');
 }
 
+// Close mobile menu when clicking nav links
+function closeMobileMenu() {
+    const navMenu = document.getElementById('navMenu');
+    navMenu.classList.remove('active');
+}
+
 // Translation data
 const translations = {
     en: {
