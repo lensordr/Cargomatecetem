@@ -483,11 +483,11 @@ body {
     }
 
     .logo-svg {
-        display: none;
+        height: 80px;
     }
 
     .logo-text-mobile {
-        display: block;
+        display: none;
     }
 
     .nav-menu {
