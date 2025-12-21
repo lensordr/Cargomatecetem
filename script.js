@@ -1,3 +1,9 @@
+// Toggle mobile menu
+function toggleMenu() {
+    const navMenu = document.getElementById('navMenu');
+    navMenu.classList.toggle('active');
+}
+
 // Translation data
 const translations = {
     en: {
