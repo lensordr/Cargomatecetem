@@ -472,22 +472,22 @@ body {
     .nav-container {
         flex-direction: column;
         height: auto;
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
 
     .logo-svg {
-        height: 120px;
+        height: 80px;
     }
 
     .nav-menu {
-        margin-top: 15px;
+        margin-top: 10px;
         gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .hero-section {
-        padding: 180px 0 60px;
+        padding: 140px 0 60px;
     }
 
     .hero-title {
