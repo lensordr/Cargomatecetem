@@ -48,6 +48,11 @@ body {
     letter-spacing: -0.5px;
 }
 
+.logo-svg {
+    height: 200px;
+    width: auto;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
