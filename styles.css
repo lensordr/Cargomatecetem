@@ -477,14 +477,14 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
-        flex-direction: column;
-        height: auto;
-        padding: 5px 20px;
+        flex-direction: row;
+        height: 60px;
+        padding: 5px 10px;
+        justify-content: space-between;
     }
 
     .logo-svg {
-        height: 70px;
-        margin: -5px 0;
+        height: 50px;
     }
 
     .logo-text-mobile {
@@ -492,14 +492,29 @@ body {
     }
 
     .nav-menu {
-        margin-top: 5px;
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        margin-top: 0;
+        gap: 8px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        font-size: 0.8rem;
+    }
+
+    .nav-link {
+        font-size: 0.7rem;
+        padding: 2px 4px;
+    }
+
+    .language-selector {
+        gap: 2px;
+    }
+
+    .lang-btn {
+        padding: 4px 8px;
+        font-size: 0.7rem;
     }
 
     .hero-section {
-        padding: 10px 0 60px;
+        padding: 70px 0 60px;
     }
 
     .hero-title {
