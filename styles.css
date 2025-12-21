@@ -53,6 +53,13 @@ body {
     width: auto;
 }
 
+.logo-text-mobile {
+    display: none;
+    color: #ff7900;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -476,7 +483,11 @@ body {
     }
 
     .logo-svg {
-        height: 60px;
+        display: none;
+    }
+
+    .logo-text-mobile {
+        display: block;
     }
 
     .nav-menu {
