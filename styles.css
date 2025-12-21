@@ -475,6 +475,10 @@ body {
         padding: 15px 20px;
     }
 
+    .logo-svg {
+        height: 60px;
+    }
+
     .nav-menu {
         margin-top: 15px;
         gap: 15px;
